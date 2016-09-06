@@ -20,9 +20,13 @@ export const updateAlbum = new ValidatedMethod({
   validate: new SimpleSchema({
     _id: { type: String },
     'update.title': { type: String, optional: true },
+    'update.artist': { type: String, optional: true },
+    'update.year': { type: String, optional: true },
   }).validator(),
   run({ _id, update }) {
-    Albums.update(_id, { $set: update })
+    Albums.update(_id, {
+      $set: update,
+    })
   },
 })
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import AlbumsList from '../containers/albums-list'
-import { AddAlbum } from '../components/AddAlbum'
+import { AddAlbum } from '../components/add-album'
 
 export const Albums = () => (
   <Row>

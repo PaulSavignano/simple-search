@@ -1,7 +1,7 @@
 import { composeWithTracker } from 'react-komposer'
 import { Albums } from '../../api/albums/albums'
 import { AlbumsList } from '../components/albums-list'
-import { Loading } from '../modules/loading'
+import { Loading } from '../components/loading'
 import { Meteor } from 'meteor/meteor'
 
 const composer = (params, onData) => {

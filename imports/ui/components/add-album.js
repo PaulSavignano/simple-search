@@ -25,7 +25,7 @@ const handleInsertAlbum = (event) => {
   }
 }
 
-export const AddDocument = () => (
+export const AddAlbum = () => (
   <form onSubmit={ handleInsertAlbum }>
     <FormGroup>
       <FormControl
@@ -48,5 +48,6 @@ export const AddDocument = () => (
         placeholder="Type a album year."
       />
     </FormGroup>
+    <Button type="submit" bsStyle="success">Add Album</Button>
   </form>
 )
