@@ -53,13 +53,15 @@ export const Album = ({ album }) => (
           <FormControl
             name="artist"
             type="text"
-            defaultValue={ album.artist }          />
+            defaultValue={ album.artist }
+          />
         </Col>
         <Col xs={ 12 }>
           <FormControl
             name="year"
             type="text"
-            defaultValue={ album.year }          />
+            defaultValue={ album.year }
+          />
         </Col>
       </Row>
     </form>

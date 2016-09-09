@@ -1,5 +1,6 @@
 import { Mongo } from 'meteor/mongo'
 import { SimpleSchema } from 'meteor/aldeed:simple-schema'
+import { _ } from 'meteor/underscore'
 
 export const Albums = new Mongo.Collection('Albums')
 
