@@ -17,6 +17,9 @@ const handleInsertAlbum = (event) => {
       if (error) {
         Bert.alert(error.reason, 'danger')
       } else {
+        title.value = ''
+        artist.value = ''
+        year.value = ''
         Bert.alert('Album added!', 'success')
       }
     })
